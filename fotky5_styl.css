@@ -1,0 +1,43 @@
+@font-face {
+    font-family: LiberationMono;
+    src: url(fonty/LiberationMono-Regular.ttf);
+}
+
+
+footer{
+    font-size: 200px;
+    position: absolute;
+    bottom: -200px;
+
+}
+body{
+    background-color: rgb(29, 42, 80);
+    color: white;
+}
+h1{
+    text-align: center;
+    color: plum;
+    font-family: LiberationMono;
+}
+div.fotka{
+    margin: 10px;
+    float: left;
+    width: 20%;
+    border: 1px solid white;
+    background-color: rgb(19, 28, 53);
+}
+.fotka header{
+    padding: 15px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+div.fotka img{
+    width: 100%;
+    max-height: 400px;
+    filter: none;
+    transition: all 0.5s;
+    aspect-ratio: 1/1;
+}
+div.fotka img:hover{
+    filter: grayscale(100%);
+}

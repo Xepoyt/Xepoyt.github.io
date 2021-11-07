@@ -1,0 +1,68 @@
+@font-face {
+    font-family: LiberationMono;
+    src: url(fonty/LiberationMono-Regular.ttf);
+}
+
+body{
+    background-color: rgb(29, 42, 80);
+    color: white;
+    font-family: LiberationMono;
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+main{
+    padding-top: 1%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 5%;
+    row-gap: 7%;
+    padding-inline: 5%;
+}
+section{
+    background-color: rgb(51, 72, 134);
+    border: 1px solid yellow;
+    aspect-ratio: 38/15;
+    width: 100%;
+    height: 100%;
+    transition: 0.35s;
+    border-radius: 5px;
+}
+section header{
+    text-align: center;
+    font-size: 25px;
+    padding-inline: 1.5%;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 1%;
+}
+section article{
+    color: white;
+    font-size: 17.5px;
+    padding: 5%;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+section:hover{
+    background-color: rgb(41, 58, 107);
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.5);
+}
+section:active{
+    background-color: rgb(21, 30, 56);
+}
+header img{
+    height: 30px;
+}
+footer{
+    font-size: 8px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+footer a{
+    color: rgb(51, 72, 134);
+}

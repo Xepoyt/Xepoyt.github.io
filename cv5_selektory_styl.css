@@ -1,0 +1,44 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(43, 43, 43);
+}
+h1, h2, h3, h4, h5, h6{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+h2{
+    color: rgb(189, 189, 189);
+}
+#menu{
+    background-color: cadetblue;
+    font-size: 17px;
+}
+#hlavni{
+    font-size: 27px;
+}
+a{
+    color: crimson;
+}
+a:hover{
+    color: rgb(173, 18, 49);
+}
+a:active{
+    color: rgb(78, 9, 23);
+}
+.mojeFormatovani{
+    text-align: justify;
+    line-height: 12px;
+}
+.paticka{
+    font-size: 12px;
+    position: absolute;
+    bottom: 0px;
+}
+strong{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

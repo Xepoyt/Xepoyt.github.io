@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sedive{
+    background-color: grey;
+}
+td{
+    background-color: lightblue;
+    color: white;
+    font-weight: bold;
+}
+table, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 33%;
+}
+td{
+    border-bottom: 1px dashed black;
+}
+th{
+    text-align: right;
+}
+.prvni th{
+    color: red;
+}
+.druha th{
+    color: yellow;
+    background-color: green;
+}
+.mesic:hover{
+    font-style: italic;
+}
+.sedive td{
+    background-color: gray;
+}
